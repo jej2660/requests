@@ -3,7 +3,7 @@
 # ' ' `-' `-`.`-' `-' `-'  '  `-'
 
 __title__ = "requests"
-__description__ = "Python HTTP for Humans."
+__description__ = "Python HTTP for HumansScale"
 __url__ = "https://requests.readthedocs.io"
 __version__ = "2.32.5"
 __build__ = 0x023205
